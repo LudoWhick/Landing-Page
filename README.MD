@@ -1,0 +1,1 @@
+This is a project to show my skills of html, css and flexbox.
