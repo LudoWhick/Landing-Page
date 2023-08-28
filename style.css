@@ -58,24 +58,23 @@ footer {
 }
 
 .quote {
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    /* box-sizing: border-box; */
-    background-color: #E5E7EB;
-    /* padding: 70px 400px; */
-    padding: 70px 150px;
     align-items: center;
 }
 
+.q {
+    padding: 100px 150px;
+    max-width: 800px;
+}
+
 .Thor {
-    align-self: flex-end;
-    
+    text-align: end;
+    margin-right: 50px;
 }
 
 blockquote {
     margin: 0;
     padding: 0;
-    max-width: 800px;
-    font-size: 36px;
-    align-self: center;
 }
