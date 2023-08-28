@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     align-items: stretch;
-    justify-content: center;
+    /* justify-content: center; */
     box-sizing: border-box;
     
 }
@@ -34,3 +34,26 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    text-align: center;
+}
+
+
+
+/* .boxes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */
