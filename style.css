@@ -22,13 +22,15 @@ footer {
     background-color: #1F2937;
     display: flex;
     margin: 0;
-    padding: 0 10px;
+    padding: 0 150px;
     align-items: center;
     justify-content: space-between;
 }
 
 .hero {
     margin: 0;
-    padding: 0;
+    padding: 0 150px;
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
 }
