@@ -3,8 +3,9 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
+    box-sizing: border-box;
     
 }
 
@@ -16,15 +17,18 @@ footer {
 }
 
 
-header,
-.hero {
+
+.menu {
     background-color: #1F2937;
-    margin: 0;
-    padding: 0;
     display: flex;
+    margin: 0;
+    padding: 0 10px;
     align-items: center;
+    justify-content: space-between;
 }
 
-header {
-    justify-content: space-between;
+.hero {
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
 }
