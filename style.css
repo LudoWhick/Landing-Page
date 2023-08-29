@@ -121,9 +121,10 @@ blockquote {
     background-color: #3882F6;
     display: flex;
     flex: 1;
-    padding: 10px 30px;
+    padding: 25px 100px;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 }
 
 .CTA-text h3 {
