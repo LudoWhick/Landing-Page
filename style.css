@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     align-items: stretch;
-    /* justify-content: center; */
     box-sizing: border-box;
     
 }
@@ -25,6 +24,11 @@ footer {
     padding: 0 150px;
     align-items: center;
     justify-content: space-between;
+    color: white;
+}
+
+a {
+    color: white;
 }
 
 .hero {
@@ -33,6 +37,11 @@ footer {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    color: white;
+}
+
+.hero h1 {
+    color: #F9FAF8;
 }
 
 .info {
@@ -83,6 +92,7 @@ blockquote {
     padding: 70px 120px;
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .CTA-blue {
@@ -90,7 +100,6 @@ blockquote {
     display: flex;
     flex: 1;
     padding: 10px 30px;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
 }
@@ -105,10 +114,12 @@ blockquote {
 
 button {
     width: 90px;
+    color: white;
 }
 
 footer {
     background-color: #1F2937;
     text-align: center;
     padding: 10px 0;
+    color: white;
 }
