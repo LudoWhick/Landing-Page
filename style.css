@@ -32,6 +32,11 @@ footer {
     color: #F9FAF8;
 }
 
+.info-image {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
 a,
 .hero-text p {
     text-decoration: none;
