@@ -30,6 +30,10 @@ body {
     font-weight: bold;
 }
 
+a {
+    margin: 0 10px;
+}
+
 a,
 .hero-text p {
     text-decoration: none;
