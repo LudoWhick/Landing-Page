@@ -102,3 +102,7 @@ blockquote {
 .CTA-text p {
     margin-top: 0;
 }
+
+button {
+    width: 90px;
+}
