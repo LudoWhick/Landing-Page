@@ -8,12 +8,12 @@ body {
     
 }
 
-body,
+/* body,
 header,
 main,
 footer {
     border: 1px solid red;
-}
+} */
 
 
 
@@ -41,7 +41,7 @@ a,
 
 .hero {
     margin: 0;
-    padding: 0 150px;
+    padding: 70px 150px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@ a,
 .boxes {
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin-bottom: 80px;
     padding: 0;
 }
 
@@ -137,6 +137,14 @@ blockquote {
 button {
     width: 90px;
     color: white;
+    background: #3882F6;
+    border: 5px solid transparent;
+    border-radius: 5px;
+}
+
+.CTA-button {
+    border: 2px solid white;
+    border-radius: 5px;
 }
 
 footer {
